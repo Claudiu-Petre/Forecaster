@@ -5,7 +5,7 @@
     margin: auto 0;
     border: var(--border-dark-blue);
     border-radius: 2px;
-    background-color: var(--almost-white);
+    /* background-color: var(--almost-white); */
     overflow: hidden;
   }
   

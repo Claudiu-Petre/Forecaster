@@ -1,7 +1,8 @@
 .forecast-details {
     display: flex;
-    flex-direction: column;  
-    flex: 1 1 auto;
+    flex-direction:column;  
+    /* flex: 1 1 auto; */
+    margin-top: 2rem;
   }
   
   .forecast-details > h2 {

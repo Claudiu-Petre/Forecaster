@@ -9,11 +9,10 @@
 }
 
 :root {
-  --almost-white: rgb(236, 236, 236);
-  --white-blue: hsl(48, 11%, 65%);
-  --light-blue: rgb(199, 114, 232);
-  --medium-blue: rgb(107, 175, 211);
-  --dark-blue: rgb(33, 42, 141);
+
+  --almost-white: rgb(10, 6, 6);
+  --medium-blue: rgb(61, 138, 179);
+  --dark-blue: rgb(217, 130, 117);
   /* --almost-black: rgb(33, 33, 33); */
   /* --text-shadow-black: 2px 2px 2px var(--almost-black); */
   /* --box-shadow-white: 0 0 10px var(--almost-white); */
@@ -21,7 +20,7 @@
 }
 
 body {
-  background-image: linear-gradient(var(--light-blue), var(--white-blue));
+  background: var(--dark-blue); 
   /* margin-right: 2rem; */
 
 }

@@ -1,12 +1,12 @@
 .forecast-daily-summary {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     gap: 10px;
     width: 16%;
     padding-top: 5px;
     margin: 0 0.5%;
-    border-radius: 4px;
+    border-radius: 6px;
     background-image: linear-gradient(-8deg, var(--dark-blue), var(--medium-blue));  
     text-align: center;
   }

@@ -1,5 +1,5 @@
 :root {
-    --top-bar-height: 60px;
+    --top-bar-height: 80px;
     /* --top-bar-border: 2px solid var(--dark-blue); */
   }
   
@@ -11,5 +11,6 @@
     height: var(--top-bar-height);  
     padding: 10px 10px;
     border-bottom: var(--top-bar-border);
-    background-color: var(--medium-blue);
+    /* background-color: var(--medium-blue); */
+    border: 1px solid black;
   }
