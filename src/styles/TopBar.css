@@ -12,5 +12,5 @@
     padding: 10px 10px;
     border-bottom: var(--top-bar-border);
     /* background-color: var(--medium-blue); */
-    border: 1px solid black;
+    border: 4px solid rgb(70, 85, 153);
   }

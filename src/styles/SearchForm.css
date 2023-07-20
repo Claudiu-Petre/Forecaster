@@ -3,7 +3,7 @@
     width: calc(100% - 50px);
     max-width: 600px;
     margin: auto 0;
-    border: var(--border-dark-blue);
+    /* border: var(--border-dark-blue); */
     border-radius: 2px;
     /* background-color: var(--almost-white); */
     overflow: hidden;
@@ -16,6 +16,7 @@
     width: calc(100% - 65px);
     padding: 5px;
     font-size: 1.2rem;
+    color: white;
   }
   
   .search-form button {
@@ -24,9 +25,10 @@
     height: 100%;
     width: 65px;
     border-left: var(--border-dark-blue);
-    background-color: var(--medium-blue);
-    color: var(--almost-white);
-    font-size: 1rem;
+    /* background-color: var(--medium-blue); */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
     text-align: center;
     vertical-align: top;
     cursor: pointer;

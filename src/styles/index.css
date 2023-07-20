@@ -10,9 +10,9 @@
 
 :root {
 
-  --almost-white: rgb(10, 6, 6);
-  --medium-blue: rgb(61, 138, 179);
-  --dark-blue: rgb(217, 130, 117);
+  --almost-white: rgb(255, 255, 255);
+  /* --medium-blue: rgb(61, 138, 179); */
+  /* --dark-blue: rgb(217, 130, 117); */
   /* --almost-black: rgb(33, 33, 33); */
   /* --text-shadow-black: 2px 2px 2px var(--almost-black); */
   /* --box-shadow-white: 0 0 10px var(--almost-white); */
@@ -21,7 +21,9 @@
 
 body {
   background: var(--dark-blue); 
-  /* margin-right: 2rem; */
+  background-image: url(../images/blueski.jpg);
+  margin-right: 2rem;
+  size: 60%;
 
 }
 
@@ -31,8 +33,8 @@ i {
 }
 
 sup {
-  color: inherit;
+  color: white;
   text-shadow: inherit;
-  font-size: 50%;
-  font-weight: 100;
+  font-size: 30px;
+  font-weight: 500;
 }
