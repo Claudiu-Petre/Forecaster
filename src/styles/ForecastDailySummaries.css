@@ -1,6 +1,7 @@
 .forecast-daily-summaries {
   margin-top: 3rem;
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
     
   }

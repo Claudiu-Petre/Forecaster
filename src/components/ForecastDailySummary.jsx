@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import WeatherIcon from "react-icons-weather";
+import WeatherIcon from "react-icons-weather";
 import "../styles/ForecastDailySummary.css";
 import getUnits from "../helpers/getUnits";
 import useUnitContext from "../hooks/useUnitContext";
@@ -31,7 +31,7 @@ function ForecastDailySummary({
         {monthAndDay}
       </p>
       <div className="forecast-daily-summary__icon" data-testid="forecast-icon">
-        {/* <WeatherIcon name="owm" iconId={icon} /> */}
+        <WeatherIcon name="owm" iconId={icon} />
       </div>
       <p>
         {weatherDescription[0]} <br />

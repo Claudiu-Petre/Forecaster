@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { v4 as uuid } from "uuid";
-// import "../styles/ForecastTrihourlySummaries.css";
+import "../styles/ForecastTrihourlySummaries.css";
 import ForecastTrihourlySummary from "./ForecastTrihourlySummary";
 
 function ForecastTriHourlySummaries({ forecasts }) {
